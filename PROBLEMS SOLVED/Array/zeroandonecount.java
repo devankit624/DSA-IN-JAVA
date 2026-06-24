@@ -1,5 +1,5 @@
 public class Main{
-    static int countzeroandone(int arr[]){
+    static int zeroandonecount(int arr[]){
         int size = arr.length;
         int zerocount = 0;
         int onecount = 0;
