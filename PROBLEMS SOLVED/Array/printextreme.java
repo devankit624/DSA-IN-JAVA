@@ -1,4 +1,4 @@
-public class Main {
+public class printextreme {
     static void printextreme(int[] arr) {
         int i = 0;
         int j = arr.length - 1;
