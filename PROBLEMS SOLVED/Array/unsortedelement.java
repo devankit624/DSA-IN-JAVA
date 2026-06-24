@@ -1,5 +1,5 @@
 // Prob- Find the unsorted Element in the Array
-public class Main{
+public class unsortedelement{
         static int getunsorted(int arr[]){
             for (int i = 0; i < arr.length ; i++){
                 if (arr[i+1] <= arr[i]){
