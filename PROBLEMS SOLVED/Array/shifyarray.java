@@ -1,5 +1,5 @@
 // Shift element by 1 position
-public class Main{
+public class shiftarray{
     static int[] shiftelement(int[] arr){
         int size = arr.length;
          int temp = arr[size-1];
