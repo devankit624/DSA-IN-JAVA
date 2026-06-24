@@ -1,5 +1,5 @@
 K// Kuch bhadiya Problems
-public class Main{
+public class reversearray{
     static int[] findreverse(int[] arr){
         int size = arr.length;
         int i = 0;
