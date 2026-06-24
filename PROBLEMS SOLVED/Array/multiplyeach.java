@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main{
+public class multiphyeach{
     public static void main(String[] args){
     //Prob - 2
 
