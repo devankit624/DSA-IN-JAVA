@@ -1,7 +1,7 @@
 // Problem ->
 // find the pair which add traget in the array
 
-public class Main{
+public class double{
     static int[] findppair(int[] arr, int target){
         int sum = 0;
         int size = arr.length;
