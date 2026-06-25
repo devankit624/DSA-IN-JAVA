@@ -1,5 +1,5 @@
 // fins the missing number
-public class Main{
+public class fiindmissing{
 // Time complexity = O(n)
     static int findmissing(int[] arr){
         int xorsum = 0;
