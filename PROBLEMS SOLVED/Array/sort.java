@@ -1,7 +1,7 @@
 // sort the 0s and 1s
 // Time - Complexity = O(n^2)
 import java.util.Collections;
-public class Main{
+public class sort{
     static int[] sortthenumber(int[] arr){
         int size = arr.length;
         int temp;
