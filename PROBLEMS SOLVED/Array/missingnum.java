@@ -1,7 +1,7 @@
 // Find dublicate in the Repeated Array list
 import java.util.ArrayList;
 import java.util.List;
-public class Main{
+public class missingnum{
     static List<Integer> findmissing(int[] arr){
     // marking
     List<Integer> ans = new ArrayList<>();
