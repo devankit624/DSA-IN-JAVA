@@ -1,7 +1,7 @@
 // Problem ->
 // find first dublicate element
 import java.util.HashMap;
-public class Main{
+public class firstdublicate{
     static int finddublicate(int[] arr){
         HashMap<Integer , Integer> freq = new HashMap<>();
         for (int num : arr){
