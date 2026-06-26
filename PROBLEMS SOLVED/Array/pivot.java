@@ -1,6 +1,6 @@
 // Problem ->
 // Find the pivot element in which the left and right Array Sum is Same 
-public class Main{
+public class pivot{
     static int pivotindex(int[] arr){
         int n = arr.length;
         int leftsum[] = new int[n];
