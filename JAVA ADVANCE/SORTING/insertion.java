@@ -1,5 +1,5 @@
 // Insertion sorting ->
-public class Main{
+public class insertion{
     static int[] inssertionsort(int[] arr){
         int n = arr.length;
         for (int i =1; i < n ; i++){
