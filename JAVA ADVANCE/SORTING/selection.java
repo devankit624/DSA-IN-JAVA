@@ -1,5 +1,5 @@
 //Selection Sorting ->
-public class Main{
+public class selection{
     public static int[] sorting(int[] arr){
         int n = arr.length;
         for (int i = 0 ; i < n ; i++){
