@@ -1,5 +1,5 @@
 //Bubble sorting
-public class Main{
+public class bubble{
     public static int[] bubblesort(int[] arr){
         int n = arr.length;
         for (int i = 0 ; i < n-1 ; i++){
