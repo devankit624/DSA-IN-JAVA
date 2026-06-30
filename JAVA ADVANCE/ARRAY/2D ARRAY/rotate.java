@@ -1,5 +1,5 @@
 // Rotating Arary by the 90
-public class Main{
+public class rotate{
     public static void swapby(int[][] arr , int n){
         // transpose ka logic
         for (int i = 0 ; i < n ; i++){
