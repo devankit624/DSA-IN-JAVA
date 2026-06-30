@@ -1,5 +1,5 @@
 // Transpose of a matrix
-public class Main{
+public class transpose{
     public static int[][] transpose(int [][]arr){
         if (arr == null || arr.length == 0){
             return new int[0][0];
