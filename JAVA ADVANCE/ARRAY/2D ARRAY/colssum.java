@@ -1,7 +1,7 @@
 import java.util.List;
  import java.util.ArrayList;
 
-public class Main {
+public class colssum {
 
     static List<Integer> findColsSum(int arr[][]) {
 
