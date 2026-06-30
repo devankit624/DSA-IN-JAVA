@@ -3,7 +3,7 @@
 spiral printying of the matrix
 import java.util.List;
 import java.util.ArrayList;
-public class Main{
+public class spiral{
     public static List <Integer> waveprint(int [][] matrix , int m , int n){
         List<Integer> result = new ArrayList<>();
         for (int cols = 0 ; cols < n ; cols++){
