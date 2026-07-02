@@ -1,4 +1,4 @@
-public class Main{
+public class square{
     public static int squareroot(int square){
         int s = 1;
         int e = square;
