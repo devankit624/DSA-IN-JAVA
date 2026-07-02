@@ -1,6 +1,6 @@
 // Mountain peak
 // On the leftr side the elements are smaller than the mountain element.
-public class Main{
+public class mountain{
     public static int findmountain(int[] arr){
         int n = arr.length;
         int start = 0;
