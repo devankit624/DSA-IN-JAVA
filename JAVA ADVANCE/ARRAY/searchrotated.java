@@ -1,5 +1,5 @@
 // search in rotated search array
-public class Main{
+public class searchrotated{
     public static int searchrotated(int[] arr){
         int n = arr.length;
         int start = 0;
