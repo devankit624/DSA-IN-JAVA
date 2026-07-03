@@ -1,5 +1,5 @@
 // Book allocation problem->
-public class block{
+public class blockprob{
 
     public static boolean isanswervalid(int[] arr, int k , int maxpages){
         int studentcount = 1;
