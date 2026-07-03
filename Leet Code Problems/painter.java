@@ -1,5 +1,5 @@
 // Painter Partition Problem (PPP) ->
-public class Main{
+public class painter{
 
     public static boolean isvalidpainter(int[] arr, int k , int maxlength){
         int n = arr.length;
