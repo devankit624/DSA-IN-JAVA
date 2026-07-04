@@ -1,5 +1,5 @@
-Parathas Cook Problem ->
-public class Main{
+// Parathas Cook Problem ->
+public class parathas{
 public static boolean isvalidtime(int[] arr , int timelimit, int parathamake){
     int toatlcooks = arr.length;
     int parathacount = 0;
