@@ -1,6 +1,6 @@
 //EKO SPOJ Problem->
 // Tree Cutting Problem->
-public class Main{
+public class treecutting{
     public static boolean isvalidtree(int[] arr, int m , int maxlength){
         int totalwoodcollected = 0;
         int currenttreewoodcollected = 0;
