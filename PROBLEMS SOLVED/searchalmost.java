@@ -1,4 +1,5 @@
-public class Main{
+// Search In Almost Sorted Array ->
+public class searchalmost{
     public static int searchalmostsorted(int[] arr, int target){
         int  n = arr.length;
         int s = 0;
