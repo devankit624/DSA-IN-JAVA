@@ -1,5 +1,5 @@
 // Cow Arranging problem
-public static void Main{
+public static void cowarrange{
     public static boolean iscowvalid(int[] arr, int k , int cow){
         int n = arr.length;
         int cowcount = 1;
