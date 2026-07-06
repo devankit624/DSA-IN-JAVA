@@ -1,6 +1,6 @@
 // Find in the both Row and Column sorted
 // Time Complexity = O(m+n)
-public class Main{
+public class rowandcolumnsort{
     public static boolean findnum(int[][] arr, int target){
         int totalrow = arr.length;
         int totalcol = arr[0].length;
