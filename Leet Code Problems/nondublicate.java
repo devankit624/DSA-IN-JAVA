@@ -1,4 +1,4 @@
-public class Main {
+public class nondublicate {
     public static int numsoccur(int[] arr) {
         int n = arr.length;
         int s = 0;
