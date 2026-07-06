@@ -1,6 +1,6 @@
 // Search In 2D Matrix where Row only sorted
 search in 2d matrix
-public class Main{
+public class searchrowsort{
     public static boolean findtwod(int[][] arr, int target){
         int totalrow = arr.length;
         int totalcol = arr[0].length;
