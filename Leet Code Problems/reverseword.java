@@ -1,5 +1,5 @@
 // Reverse the Sentence 
-public class Main {
+public class reverseword{
     public static String reverseWords(String s) {
         StringBuilder ans = new StringBuilder();
         int i = s.length()-1;
