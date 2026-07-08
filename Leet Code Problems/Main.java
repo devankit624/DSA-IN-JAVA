@@ -1,43 +1,36 @@
-public class Main{
-    public static int firstoccur(int[][] arr , int rowindex){
-        int totalrow = arr.length;
-        int totalcol = arr[0].length;
-        int target = 1;
-        int ans = -1;
-        if(arr[rowindex][totalcol - 1] == 0){
-            return totalcol;
-        }
-        else {
-            // 1 wala case handkle
-            int s = 0;
-            int e = totalcol - 1;
-            while(s <= e){
-                int mid = s + (e - s) / 2;
-                if(arr[rowindex][mid] == 0){
-                    // move to the right
-                    s = mid + 1;
-                }
-                else{
-                    ans = mid;
-                    e = mid - 1;
-                }
+// Reverse the Sentence 
+public class Main {
+    public static String reverseWords(String s) {
+        StringBuilder ans = new StringBuilder();
+        int i = s.length()-1;
+        while(i >=0 ){
+            // remove all spaces 
+            while(i >= 0 && s.charAt(i) == ' '){
+                i--;
             }
-        }
-    }
-    public static int firstoccurence(int[][] brr){
-        int totalrow = brr.length;
-        int totalcol = brr[0].length;
-        int maxi = -1;
-        int rowindexone = -1;
-        for(int row = 0; row < totalrow < row++){
-            int firstoccurence = firstoccur(brr, row);
-            int onecount = totalcol - firstoccurence;
-            if(onecount !=0 && onecount > maxi){
-                maxi = onecount;
-                rowindexone  = row;
+            if(i < 0){
+                break;
             }
-        }
-    }
-    return rowindexone;
+            int j = i;
+            // fins the start index of the word
+            while(j >= 0 && s.charAt(j) != ' '){
+                j--;
+            }
+            ans.append(s.substring(j+1, i+1));
+            while(j >=0 && s.charAt(j) == ' '){
+                j--;
+            }
+            if(j >= 0){
+                ans.append(' ');
+            }
+            i = j;
+        }    
+        return ans.toString();
+    } 
+ public static void main(String[] args){
+    String word = "the sky is blue";
+    String ans = reverseWords(word);
+    System.out.println(ans);
+ }   
 }
 
