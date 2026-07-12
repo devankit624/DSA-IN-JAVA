@@ -1,4 +1,4 @@
-public class Main{
+public class remove{
     public static String removepart(String str , String sub){
         // Search and remove the String
         while (str.contains(sub)){
