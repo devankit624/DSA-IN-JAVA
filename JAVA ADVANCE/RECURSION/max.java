@@ -1,6 +1,6 @@
 
 // find max using recursion
-public class Main{
+public class max{
     public static void linearsearch(int[] arr , int i ,  int target){
         if(target == arr[i]){
             System.out.print(arr[i]);
