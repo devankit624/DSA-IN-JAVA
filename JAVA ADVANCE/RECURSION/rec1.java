@@ -1,6 +1,6 @@
 
 //print array using recursion
-public class Main{
+public class rec1{
     public static void printarray(int[] arr ,int i){
         if (i >= arr.length){
             return;
