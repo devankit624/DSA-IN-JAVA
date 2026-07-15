@@ -1,6 +1,6 @@
 //Recurence by Binary Search
 
-public class Main {
+public class rev {
 
     public static int solve(int[] arr, int target, int s, int e) {
         if (s > e) {
