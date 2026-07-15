@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+
+public class subsequence{
 public static void getallsubsequences(String s, int index, StringBuilder output, List<String> ans){
     if(index >= s.length()){
         String subsequence = output.toString();
@@ -13,7 +15,7 @@ public static void getallsubsequences(String s, int index, StringBuilder output,
     }
 }
 
-public class Main{
+
     public List<String> powerset(String s){
         List<String> ans = new ArrayList<>();
         StringBuilder output = new StringBuilder();
