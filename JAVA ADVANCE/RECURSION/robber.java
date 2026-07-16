@@ -1,4 +1,4 @@
-public class Main{
+public class robber{
     public static int solve(int[]arr, int index){
         if(index >= arr.length){
             return 0;
