@@ -1,4 +1,4 @@
-public class Main{
+public class coinchange2{
     public static int solve(int amount,int[] coins, int index){
         if(amount == 0)
             return 1;
