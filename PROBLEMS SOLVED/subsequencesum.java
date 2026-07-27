@@ -1,4 +1,4 @@
-public class Main{
+public class subsequencesum{
     public static boolean solve(int[] arr, int sum , int k , int index){
         if(index >= arr.length){
             if(sum == k){
