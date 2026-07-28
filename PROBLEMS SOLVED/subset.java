@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
-public class Main {
+public class subset {
    public static void solve(int[] nums, int index, List<Integer>output , List<List<Integer>> ans){
         // base  case 
         if(index >= nums.length){
