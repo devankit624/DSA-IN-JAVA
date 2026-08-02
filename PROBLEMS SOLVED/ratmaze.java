@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class ratmaze {
 
     public static boolean isSafeMove(int newx, int newy, int[][] arr, boolean[][] visited) {
         int n = arr.length;
