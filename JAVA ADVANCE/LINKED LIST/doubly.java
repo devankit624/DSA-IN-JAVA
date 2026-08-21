@@ -1,4 +1,4 @@
-public class Main{
+public class doubly{
     static class Node{
         int data;
         Node previous;
