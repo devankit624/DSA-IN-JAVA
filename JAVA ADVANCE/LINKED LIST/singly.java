@@ -1,4 +1,4 @@
-public class Main {
+public class singly {
 
     // Node of the linked list
     static class Node {
